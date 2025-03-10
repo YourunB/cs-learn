@@ -29,3 +29,13 @@ foreach (string name in cultureNames)
     string output = String.Format(culture, "{0,-11} {1:C2}", culture.Name, value);// Отображение с форматированием методом String.Format
     Console.WriteLine(output);
 }
+
+//-------------------------------------------------------------------------------------------------
+int count = 0;
+
+do
+{
+    Console.WriteLine(count);
+    count++;
+}
+while (count < 5);
