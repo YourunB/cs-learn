@@ -73,3 +73,15 @@ switch (n)
         Console.WriteLine("введите цифру от 1 до 3");
         break;
 }
+
+//------------------------------------------------------------------------------------------------- try catch
+int x1 = 1; int y1 = 0;
+
+try
+
+{
+    int var1 = x1 / y1; int var2 = y1 / x1;
+
+}
+
+catch (Exception err) when (y1 == 0) { Console.WriteLine("Ошибка:" + err); } //Exception может использоваться для любых ошибок
