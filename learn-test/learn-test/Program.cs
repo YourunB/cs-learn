@@ -47,3 +47,29 @@ foreach (int i in fib)
 {
     System.Console.WriteLine(i);
 }
+
+
+//-------------------------------------------------------------------------------------------------
+Console.Write("Введите: ");
+string s = Console.ReadLine();
+int n = int.Parse(s);
+int costCount = 0;
+
+switch (n)
+{
+    case 1:
+        costCount += 25; break;
+        Console.WriteLine("Результат: " + (costCount));
+        break;
+    case 2:
+        costCount += 25;
+        Console.WriteLine("Результат: " + (costCount));
+        break;
+    case 3:
+        costCount += 50;
+        Console.WriteLine("Результат: " + (costCount));
+        break;
+    default:
+        Console.WriteLine("введите цифру от 1 до 3");
+        break;
+}
