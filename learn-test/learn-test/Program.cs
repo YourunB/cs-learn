@@ -39,3 +39,11 @@ do
     count++;
 }
 while (count < 5);
+
+//-------------------------------------------------------------------------------------------------
+int[] fib = new int[] { 0, 1, 2, 3, 5 };
+
+foreach (int i in fib)
+{
+    System.Console.WriteLine(i);
+}
