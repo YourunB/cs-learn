@@ -1,1 +1,1 @@
-# cs-learn
+# tasks in C#
